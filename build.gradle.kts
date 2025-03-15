@@ -11,17 +11,17 @@ repositories {
 
     mavenCentral()
 
-    flatDir{
+    /*flatDir{
         dirs("libs")
-    }
+    }*/
 }
 
 dependencies {
 
-    implementation(files("libs/shiro-2.3.6.jar"))
+    //implementation(files("libs/shiro-2.3.6.jar"))
+    api("org.springframework.boot:spring-boot-starter-websocket:3.4.0")
+    implementation("com.mikuac:shiro:2.3.6")
 
-    testImplementation(platform("org.junit:junit-bom:5.10.0"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
 
     implementation("org.springframework.boot:spring-boot-starter:3.4.0")
 }

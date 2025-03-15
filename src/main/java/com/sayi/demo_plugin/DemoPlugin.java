@@ -9,10 +9,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class DemoPlugin extends BotPlugin {
 
-    static {
-        System.out.println("loaded");
-    }
-
     @Override
     public int onGroupMessage(Bot bot, GroupMessageEvent event) {
         String msg = event.getMessage();

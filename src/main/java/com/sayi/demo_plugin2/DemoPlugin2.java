@@ -1,4 +1,4 @@
-package com.sayi.demo_plugin;
+package com.sayi.demo_plugin2;
 
 
 import com.mikuac.shiro.core.Bot;
@@ -19,8 +19,8 @@ import java.util.concurrent.TimeUnit;
 
 
 @Component
-public class DemoPlugin extends BotPlugin {
-    private static final Logger log = LoggerFactory.getLogger(DemoPlugin.class);
+public class DemoPlugin2 extends BotPlugin {
+    private static final Logger log = LoggerFactory.getLogger(DemoPlugin2.class);
 
     static {
         try{
